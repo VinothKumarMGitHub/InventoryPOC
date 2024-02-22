@@ -1,0 +1,28 @@
+
+
+.container{
+    display: flex;
+}
+
+.container-slidemenu{
+    width: 220px;
+}
+
+.container-main{
+}
+
+.container-main-toolbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.container-main-content{
+    margin: 10px;
+    position: fixed;
+    top: 40px;
+    left: 220px;
+    width: 85vw;
+    height: 93vh;
+    overflow: auto;
+}

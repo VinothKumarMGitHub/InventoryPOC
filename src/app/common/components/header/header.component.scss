@@ -1,0 +1,51 @@
+.toolbar{
+    height: 40px;
+    background-color: white;
+    display: flex;
+    border: 1px solid lightgray;
+    align-items: center;
+    gap: 20px;
+}
+
+.toolbar-title{
+    margin-left: 30px;
+    color: rgb(51, 114, 202);;
+}
+
+.toolbar-search{
+    height: 20px;
+    border: 1px solid rgb(127, 169, 229);;
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(51, 114, 202);;
+    width: 250px;
+}
+ 
+.toolbar-buttons{
+    right: 30px;
+    display: flex;
+    gap: 10px;
+    position: fixed;
+    right: 10px;
+}
+
+.toolbar-button{
+    background-color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(51, 114, 202);
+    border: 0px dotted burlywood ;
+}
+
+.toolbar-button-user{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.bd1-icon{
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 2px;
+}

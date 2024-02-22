@@ -1,0 +1,25 @@
+
+
+<div
+  class="navpanel"
+  [class.inv-is-mobile]="mobileQuery.matches"
+  *ngIf="shouldRun">
+
+  <div class="navpanel-heading">
+    <img src="../../../../assets/inventory-icon-png-19.jpg"
+      class="navpanel-heading-icon">
+    <h2>Inventory</h2>
+  </div>
+
+  <div class="navpanel-menuitems">
+    <span *ngFor="let item of menu">
+      <span *ngIf="!item.children || item.children.length === 0">
+        <a class="navpanel-menuitem" [href]="[item.route]">
+          <mat-icon mat-list-icon class="inv-icon">{{item.iconName}}</mat-icon>
+          {{item.displayName}}
+        </a>
+      </span>
+    </span>
+  </div>
+
+</div>

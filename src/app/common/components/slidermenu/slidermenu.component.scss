@@ -1,0 +1,34 @@
+ .navpanel{
+    background-color: rgb(51, 114, 202);
+    color: whitesmoke;
+    position: sticky;
+    top: 0;
+    height: 100vh; /* 100% of the viewport height */
+ }
+
+ .navpanel-heading{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 20px;
+ }
+
+ .navpanel-heading-icon{
+  width: 25px;
+  height: 25px;
+  background-color: white;
+ }
+
+ .navpanel-menuitems{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+ }
+
+ .navpanel-menuitem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+ }
